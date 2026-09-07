@@ -1,0 +1,30 @@
+Sustainable-VEG Dataset License
+
+The Sustainable-VEG annotation dataset in data/Sustainable-VEG.json is
+licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives
+4.0 International Public License (CC BY-NC-ND 4.0).
+
+Copyright 2026 Sustainable-VEG authors.
+
+You may copy and redistribute the unmodified dataset for noncommercial
+purposes, provided that you give appropriate credit, provide a link to the
+license, and indicate whether technical changes permitted by the license were
+made. If you remix, transform, or build upon the dataset, you may not
+distribute the modified dataset under this license.
+
+License deed:
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Full legal code:
+https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
+Preferred attribution:
+Sustainable-VEG: A Dataset of Visual Evidence Grounding for Sustainability
+Reports, Sustainable-VEG authors,
+https://github.com/ntunlplab/sustainable-veg,
+CC BY-NC-ND 4.0.
+
+This license applies only to data/Sustainable-VEG.json. It does not apply to
+company sustainability reports, SASB publications or SASB-derived content,
+model weights, service APIs, or any other third-party material. Those items
+remain subject to their respective owners' terms.

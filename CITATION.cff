@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use Sustainable-VEG, please cite the accompanying paper."
+title: "Sustainable-VEG: A Dataset of Visual Evidence Grounding for Sustainability Reports"
+type: dataset
+license: CC-BY-NC-ND-4.0
+authors:
+  - family-names: Yang
+    given-names: Guan-Bo
+  - family-names: Yi
+    given-names: Guan-Ting
+  - family-names: Lin
+    given-names: Yi-Hsiu
+  - family-names: Liu
+    given-names: An-Chih
+  - family-names: Li
+    given-names: Chen-An
+  - family-names: Lin
+    given-names: Yu-Xiang
+  - family-names: Shao
+    given-names: Hsin
+  - family-names: Kuo
+    given-names: Tzu-Chieh
+  - family-names: Chen
+    given-names: Chien-Hung
+  - family-names: Day
+    given-names: Min-Yuh
+  - family-names: Chen
+    given-names: Chung-Chi
+  - family-names: Chen
+    given-names: Hsin-Hsi
+repository-code: "https://github.com/ntunlplab/sustainable-veg"
+abstract: >-
+  Sustainable-VEG is a benchmark for fine-grained visual evidence grounding in
+  sustainability reports. It provides page-level disclosure labels and
+  region-level bounding boxes aligned with standardized SASB indicators.
+keywords:
+  - sustainability reports
+  - ESG
+  - visual evidence grounding
+  - information extraction
+  - document understanding

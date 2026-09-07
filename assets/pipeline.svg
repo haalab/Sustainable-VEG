@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="260" viewBox="0 0 1100 260" role="img" aria-labelledby="title desc">
+  <title id="title">Sustainable-VEG benchmark pipeline</title>
+  <desc id="desc">A report page and SASB indicator are processed by text or visual grounding systems, producing localized evidence boxes evaluated with IoU-F1.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L8 3L0 6Z" fill="#68817a"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="260" rx="18" fill="#f5faf7"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif">
+    <g transform="translate(38 40)">
+      <rect width="210" height="180" rx="14" fill="#fff" stroke="#c8dbd3" stroke-width="2"/>
+      <text x="105" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#274b43">BENCHMARK INPUT</text>
+      <rect x="22" y="47" width="70" height="100" rx="6" fill="#eef4f1" stroke="#aac7bb"/>
+      <path d="M32 64H80M32 75H75M32 94H80M32 106H80M32 118H80M32 130H68" stroke="#abc1b8" stroke-width="4" stroke-linecap="round"/>
+      <rect x="29" y="89" width="55" height="34" rx="3" fill="#dcefe3" stroke="#32996b" stroke-width="2"/>
+      <text x="113" y="78" font-size="13" fill="#52726a">Report page</text>
+      <text x="113" y="108" font-size="19" font-weight="700" fill="#176d5e">+</text>
+      <text x="113" y="136" font-size="13" fill="#52726a">SASB metric</text>
+      <text x="105" y="166" text-anchor="middle" font-size="12" fill="#7b918b">PDF coordinate space</text>
+    </g>
+
+    <path d="M266 130H328" stroke="#68817a" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <g transform="translate(344 28)">
+      <rect width="340" height="204" rx="14" fill="#fff" stroke="#c8dbd3" stroke-width="2"/>
+      <text x="170" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#274b43">EVIDENCE GROUNDING</text>
+      <rect x="20" y="50" width="140" height="126" rx="10" fill="#f4f7f6" stroke="#d2ded9"/>
+      <text x="90" y="76" text-anchor="middle" font-size="13" font-weight="700" fill="#516b65">TEXT-CENTRIC</text>
+      <text x="90" y="104" text-anchor="middle" font-size="12" fill="#718780">OCR + BM25</text>
+      <text x="90" y="126" text-anchor="middle" font-size="12" fill="#718780">Dense retrieval</text>
+      <text x="90" y="148" text-anchor="middle" font-size="12" fill="#718780">RAG</text>
+      <rect x="180" y="50" width="140" height="126" rx="10" fill="#e8f5ed" stroke="#8ac7a5"/>
+      <text x="250" y="76" text-anchor="middle" font-size="13" font-weight="700" fill="#176d5e">VISION-CENTRIC</text>
+      <text x="250" y="104" text-anchor="middle" font-size="12" fill="#477468">Direct VLM</text>
+      <text x="250" y="129" text-anchor="middle" font-size="12" font-weight="700" fill="#1e8065">GGSR</text>
+      <text x="250" y="151" text-anchor="middle" font-size="12" fill="#477468">grid retrieval</text>
+      <text x="170" y="194" text-anchor="middle" font-size="12" fill="#7b918b">Same target, different structural assumptions</text>
+    </g>
+
+    <path d="M702 130H764" stroke="#68817a" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <g transform="translate(780 40)">
+      <rect width="282" height="180" rx="14" fill="#fff" stroke="#c8dbd3" stroke-width="2"/>
+      <text x="141" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#274b43">AUDITABLE OUTPUT</text>
+      <rect x="24" y="49" width="82" height="102" rx="7" fill="#eef4f1" stroke="#aac7bb"/>
+      <path d="M35 66H94M35 78H90M35 98H94M35 110H94M35 122H94M35 134H83" stroke="#abc1b8" stroke-width="4" stroke-linecap="round"/>
+      <rect x="32" y="94" width="66" height="36" rx="3" fill="#dcefe3" stroke="#32996b" stroke-width="3"/>
+      <text x="130" y="80" font-size="13" fill="#52726a">Evidence box</text>
+      <text x="130" y="107" font-size="13" fill="#52726a">Metric code</text>
+      <rect x="128" y="123" width="125" height="33" rx="16" fill="#fff2d8"/>
+      <text x="190" y="145" text-anchor="middle" font-size="13" font-weight="700" fill="#8b641d">IoU-F1@0.5</text>
+    </g>
+  </g>
+</svg>

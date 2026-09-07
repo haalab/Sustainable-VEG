@@ -1,0 +1,8 @@
+-r requirements.txt
+
+# Optional, GPU-heavy dependencies used only for OCR generation.
+accelerate
+chandra-ocr
+olmocr
+torch
+transformers

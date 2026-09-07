@@ -1,0 +1,14 @@
+beautifulsoup4
+faiss-cpu
+google-genai
+jieba
+numpy
+openai
+pillow
+pydantic
+pymupdf
+python-dotenv
+pyyaml
+rank-bm25
+sentence-transformers
+tqdm

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Sustainable-VEG</title>
+  <desc id="desc">Visual Evidence Grounding for Sustainability Reports</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#092f33"/>
+      <stop offset="0.58" stop-color="#0d5a54"/>
+      <stop offset="1" stop-color="#15756a"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#6fd08c"/>
+      <stop offset="1" stop-color="#d5f08d"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#032527" flood-opacity="0.28"/>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#b6ead7" stroke-width="1" opacity="0.16"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <circle cx="1094" cy="-10" r="180" fill="#7ed6a4" opacity="0.08"/>
+  <circle cx="1124" cy="302" r="132" fill="#f0d58b" opacity="0.08"/>
+
+  <g transform="translate(76 48)" filter="url(#shadow)">
+    <rect width="176" height="224" rx="16" fill="#f8fbf7"/>
+    <rect x="24" y="30" width="76" height="9" rx="4.5" fill="#cbd9d2"/>
+    <rect x="24" y="51" width="124" height="6" rx="3" fill="#dbe4df"/>
+    <rect x="24" y="65" width="112" height="6" rx="3" fill="#dbe4df"/>
+    <g stroke="#c4d6ce" stroke-width="2">
+      <path d="M24 98H150M24 124H150M24 150H150M24 176H150"/>
+      <path d="M62 92V182M108 92V182"/>
+    </g>
+    <rect x="59" y="120" width="93" height="58" rx="5" fill="#dff2e5" stroke="#33a26f" stroke-width="4"/>
+    <path d="M141 23c20 8 30 23 27 44-22 2-38-8-46-29 5-9 11-14 19-15Z" fill="url(#leaf)"/>
+    <path d="M125 54c10-8 20-14 34-18" fill="none" stroke="#26795c" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g fill="#f5fbf7">
+    <text x="310" y="130" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="66" font-weight="760" letter-spacing="-2">Sustainable-VEG</text>
+    <text x="314" y="177" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="25" font-weight="500" fill="#c6eadc">Visual Evidence Grounding for Sustainability Reports</text>
+    <text x="314" y="227" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="18" fill="#9fd1c1">Ground disclosures. Preserve structure. Make evidence auditable.</text>
+  </g>
+  <g transform="translate(1015 126)" fill="none" stroke="#d8f1e3" opacity="0.8">
+    <rect width="106" height="76" rx="8" stroke-width="2"/>
+    <path d="M35 0V76M70 0V76M0 25H106M0 50H106"/>
+    <rect x="34" y="24" width="73" height="52" rx="4" fill="#b5e6cb" fill-opacity="0.22" stroke="#d9f5e5" stroke-width="3"/>
+  </g>
+</svg>
