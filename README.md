@@ -14,7 +14,6 @@
   <a href="metrics"><img alt="SASB industries: 7" src="https://img.shields.io/badge/SASB_industries-7-CB8B3B"></a>
   <a href="LICENSE"><img alt="Code license: Apache 2.0" src="https://img.shields.io/badge/code-Apache--2.0-D22128"></a>
   <a href="DATA_LICENSE"><img alt="Data license: CC BY-NC-ND 4.0" src="https://img.shields.io/badge/data-CC_BY--NC--ND_4.0-EF9421"></a>
-  <a href=".github/workflows/validate.yml"><img alt="Repository validation" src="https://github.com/ntunlplab/sustainable-veg/actions/workflows/validate.yml/badge.svg"></a>
 </p>
 
 Sustainable-VEG evaluates whether a system can locate the *minimal visual evidence* that supports a standardized SASB disclosure. Each benchmark item pairs a real sustainability-report page with page-level disclosure labels and one or more evidence bounding boxes in PDF coordinates.
